@@ -559,3 +559,135 @@ const prompt = require('prompt-sync')()
 // }else{
 //     console.log("Gênero inválido para o cálculo.")
 // }
+
+
+//PASSO 04 - REPETIÇÕES ENQUANTO
+
+//38
+
+// let num = 6
+// while(num <= 11){
+//     console.log(num)
+//     if(num === 11){
+//         console.log("Acabou!")
+//     }
+//     num++
+// }
+
+
+//39
+
+// let num = 10
+// while(num > 2){
+//     console.log(num)
+//     if(num === 3){
+//         console.log("Acabou!")
+//     }
+//     num--
+// }
+
+
+//40
+
+// let num = 0
+// while(num <= 18){
+//     console.log(num)
+//     if(num === 18){
+//         console.log("Acabou!")
+//     }
+//     num += 3
+// }
+
+
+//41
+
+// let num = 100
+// while(num >= 0){
+//     console.log(num)
+//     if(num === 0){
+//         console.log("Acabou!")
+//    }
+//    num -= 5
+// }
+
+
+//42
+
+// let NumeroEscolhido = parseInt(prompt("Digite o número positivo que quiser: "))
+// let num = 1
+
+// while(num <= NumeroEscolhido){
+//     console.log(num)
+//     if(num === NumeroEscolhido){
+//         console.log("Acabou!")
+//     }
+//     num++
+// }
+
+
+//43
+
+// let num = 30
+// while(num >= 1){
+//     if(num % 4 === 0){
+//         console.log(`[${num}]`)
+//     }else{
+//         console.log(num)
+//     }
+//     num--
+// }
+
+
+//44
+
+// let inicio = parseInt(prompt("Digite o número inicial: "))
+// let final = parseInt(prompt("Digite o número final: "))
+// let incremento = parseInt(prompt("Digite o incremento: "))
+
+// while(inicio <= final){
+//     console.log(inicio)
+//     if(inicio === final){
+//         console.log("Acabou!")
+//     }
+//     inicio += incremento
+// }
+
+
+//45
+
+// let inicio = parseInt(prompt("Digite o número inicial: "))
+// let final = parseInt(prompt("Digite o número final: "))
+// let incremento = parseInt(prompt("Digite o incremento: "))
+
+// if(inicio < final){
+// while(inicio <= final){
+//     console.log(inicio)
+//     if(inicio === final){
+//         console.log("Acabou!")
+//     }
+//     inicio += incremento
+//     }
+// }else if(inicio > final){
+// while(inicio >= final){
+//     console.log(inicio)
+//     if(inicio === final){
+//         console.log("Acabou!")
+//     }
+//     inicio -= incremento
+//     }
+// }else{
+//     console.log(inicio)
+//     console.log("Acabou!")
+// }
+
+
+//46
+
+// let num = 6
+// let soma = 0
+// while(num <= 100){
+//     console.log(num)
+//     soma += num
+//     num += 2
+// }
+// console.log(soma)
