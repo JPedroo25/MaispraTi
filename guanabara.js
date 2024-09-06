@@ -691,4 +691,3 @@ const prompt = require('prompt-sync')()
 //     num += 2
 // }
 // console.log(soma)
-function development(){}
