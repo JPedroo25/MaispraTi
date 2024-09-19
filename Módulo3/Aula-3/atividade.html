@@ -9,7 +9,7 @@
             Telefone (campo opcional)
             Assunto (campo de seleção com 3 opções: Dúvida, Suporte, Feedback)
             Checkbox para aceitar os Termos de Uso (obrigatório)
-nclua um botão de envio que só deve ser habilitado se todos os campos obrigatórios forem preenchidos corretamente.
+inclua um botão de envio que só deve ser habilitado se todos os campos obrigatórios forem preenchidos corretamente.
         Adicione um placeholder para cada campo.
 
         Utilize HTML5 para adicionar validação dos campos obrigatórios e padrões de validação (como o campo de e-mail e número de telefone).
@@ -24,3 +24,47 @@ nclua um botão de envio que só deve ser habilitado se todos os campos obrigat�
         Aplique foco (:focus) nos campos, destacando-os quando o usuário estiver interagindo com eles.
         Estilize o botão de envio para parecer um botão moderno (com sombras, efeito hover, e animação suave quando pressionado).
 Alinhe os rótulos (<label>) dos campos à esquerda e os inputs à direita, criando uma boa legibilidade. -->
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Validação de Email">
+        <title>Validação de Email</title>
+        <link rel="stylesheet" href="ativiade.css">
+
+    </head>
+    <body>
+        <form>
+        
+        <h1>Faça seu login</h1>
+
+        <label for="nome">Seu nome completo(obrigatório):</label>
+        <input type="nome" id="nome" required/>
+
+        <label for="email">Seu e-mail(obrigatório):</label>
+        <input type="email" id="email" required/>
+
+        <label for="phoneNumber">Seu número de telefone(opicional):</label>
+        <input for="phoneNumber" id="phoneNumber"/>
+        
+        <input type="checkbox" id="Termos de uso" name="Termos de uso" value="Termos de uso">
+            <label class="inline-label" for="Termos de uso">Concorda com os termos de uso do site?(obrigatório)</label>
+
+        <button class="Confirmar">Confirmar</button>
+
+        <button>Dúvida</button>
+        <button>Suporte</button>
+        <button>Feedback</button>
+
+        </form>
+    </body>
+    <style>
+        input:invalid {
+            border: 2px dashed red;
+        }
+        input:valid {
+            border: 2px solid black;
+        }
+    </style>
+    </html>

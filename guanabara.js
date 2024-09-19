@@ -691,3 +691,108 @@ const prompt = require('prompt-sync')()
 //     num += 2
 // }
 // console.log(soma)
+
+
+//47
+
+// let num = 500
+// let soma = 0
+// while(num >= 0){
+//     console.log(num)
+//     soma += num
+//     num -= 50
+// }
+// console.log(soma)
+
+
+//48
+
+// let sum = 0
+// for(let i = 0; i < 7; i++){
+//     num = parseInt(prompt("Digite um número: "))
+//     sum += num
+// }
+// console.log(sum)
+
+
+//49
+
+// let par = 0
+// let impar = 0
+// for(let i = 0; i < 6; i++){
+//     num = parseInt(prompt("Digite um número: "))
+//     if(num % 2 === 0){
+//         par++
+//     }else {
+//         impar++
+//     }
+// }
+// console.log(`Temos ${par} números pares e ${impar} ímpares.`)
+
+
+//50
+
+// let numerosMaioresQue5 = 0
+// let numerosDivisiveisPor3 = 0
+// for(let i = 0; i < 20; i++){
+//     let numeroAleatorio = Math.floor(Math.random() * 10)
+//     console.log(numeroAleatorio)
+//     if(numeroAleatorio > 5){
+//         numerosMaioresQue5++
+//     }
+//     if(numeroAleatorio % 3 === 0){
+//         numerosDivisiveisPor3++
+//     }
+// }
+// console.log(`Temos ${numerosMaioresQue5} números maiores que cinco e ${numerosDivisiveisPor3} números divisíveis por três.`)
+
+
+//51
+
+// let maior = Number.NEGATIVE_INFINITY
+// let menor = Number.POSITIVE_INFINITY
+
+// for (let i = 0; i < 8; i++) {
+//     let numero = parseFloat(prompt("Digite um número:"));
+
+//     if (numero > maior) {
+//         maior = numero
+//     }
+//     if (numero < menor) {
+//         menor = numero
+//     }
+// }
+
+
+// console.log(`O maior número é: ${maior}`)
+// console.log(`O menor número é: ${menor}`)
+
+
+//52
+
+// let maiorDeDezoito = 0
+// let menosDeCinco = 0
+// let soma = 0
+// let quanidadeDePessoas = 0
+// let maior = 0
+// for(let i = 0; i < 10; i++){
+//     idade = parseInt(Number(prompt("Digite sua idade: ")))
+//     soma += idade
+//     quanidadeDePessoas++
+//     if(idade > 18){
+//         maiorDeDezoito++
+//     } else if(idade < 5){
+//         menosDeCinco++
+//     }
+
+//     if(idade >= maior){
+//         maior = idade
+//     }
+// }
+
+// let media = soma / quanidadeDePessoas
+
+// console.log(`A média de idade do grupo é de ${media}`)
+// console.log(`O número de pessoas maiores de 18 anos é de ${maiorDeDezoito}`)
+// console.log(`O número de pessoas menores de 5 anos é de ${menosDeCinco}`)
+// console.log(`A maior idade foi de ${maior} anos`)

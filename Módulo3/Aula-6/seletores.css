@@ -1,0 +1,51 @@
+div p { /*Todo parágrafo dentro de uma div*/
+    color: blue;
+}
+
+ul > li { /*Filhos diretos*/
+    list-style: none;
+}
+
+h1 + p { /*Todo paragrafo logo após o h1*/
+    margin-bottom: 10px;
+}
+
+h1 ~ p { /*Aplica aos irmãos // Todos os parágrafos depois de um h1*/
+    color: purple
+}
+
+a:hover {
+
+}
+
+a:visited { /*Links já visitados*/
+
+}
+
+p::after { /*Adiciona após todos os parágrafos*/
+    content: "Seu nome";
+}
+
+p::before {
+
+}
+
+p::first-letter { /*Mexer na primeira letra*/
+
+}
+
+p::first-line { /*Mexer na primeira linha*/
+
+}
+
+li:nth-child(2){ /*Mexer no segundo filho de uma li*/
+    color: green;
+}
+
+tr:nth-child(even){ /*Mexer nos filhos pares de uma tabela*/
+
+}
+
+button:not(.primary){ /*Todo botão que NÃO for primary fica dessa cor*/
+    color: rgb(145, 255, 0)
+}

@@ -1,0 +1,12 @@
+/* div {
+    color: red;
+} */
+
+/* p {
+    color: inherit; Inherit força a herança
+} */
+
+/*MAIOR SELETOR DE ESPECIFICIDADE  //  (0,0,0) QUanto mais para a esquerda maior especificidade*/
+/*(0,0,2) significa que possui dois níveis 1*/
+/*Mesma especificidade, o de baixo ganha*/
+/*Usar o comando !important força a prioridade*/
