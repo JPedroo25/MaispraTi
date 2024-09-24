@@ -1,0 +1,38 @@
+<!-- Crie um botão que, ao ser clicado, altere o texto na página após 3 segundos (usando setTimeout). Adicione outro botão que exiba um contador que atualiza a cada segundo (usando setInterval). -->
+<!-- Crie botões "Voltar" e "Avançar" que utilizam o histórico de navegação do navegador (usando window.history.back() e window.history.forward()). -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    
+</head>
+<body>
+
+    <h1 id="texto">Texto original</h1>
+    <button id="botao">Clique para alterar o texto</button>
+    <button id="timer">Clique para iniciar a contagem</button>
+
+
+    <script>
+        document.getElementById('botao').addEventListener('click', function() {
+            setTimeout(function() {
+                document.getElementById('texto').innerText = 'Texto alterado após 3 segundos!';
+            }, 3000);
+        });
+
+        let i = 10
+        document.getElementById('timer').addEventListener('click', function() {
+            let j = setInterval(function() {
+                document.write(i + '<br>')
+                i--
+                if(i === 0){
+                    clearInterval(j)
+                }
+                }, 1000)})
+        
+    </script>
+</body>
+</html>
