@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="desafio.css">
+    <script src="desafio.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h2>To Do App</h2>
+        <button>Main</button>
+        <button>Management</button>
+    </header>
+</nav>
+
+    <main>
+    <h1>Register Task</h1>
+    <label for="Ano"></label>
+        <select name="Ano" id="Ano">
+            <option value="">Ano</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+        </select>
+    <label for="Mês"></label>
+        <select name="Mês" id="Mês">
+            <option value="">Mês</option>
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+        </select>
+
+    <label for="Dia"></label>
+    <input type="text" id="Dia" name="Dia" placeholder="Dia">
+
+    <label for="Tipo"></label>
+    <select name="Tipo" id="Tipo">
+        <option value="">Tipo</option>
+        <option value="Estudos">Estudos</option>
+        <option value="Trabalho">Trabalho</option>
+        <option value="Casa">Casa</option>
+    </select>
+
+    <label for="Descrição"></label>
+    <input type="text" id="Descrição" name="Descrição" placeholder="Descrição">
+
+    <button id="Save">Save</button>
+</main>
+
+    <ul id="Task"></ul>
+</body>
+</html>

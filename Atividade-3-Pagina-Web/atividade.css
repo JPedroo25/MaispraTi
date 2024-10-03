@@ -1,55 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(54, 54, 54);
+    background-color: #ecdd59;
 }
 
-div h1{
-    color: #fffbfb;
+header {
+    background-color: #d08e46;
+    font-size: 4vh;
     text-align: center;
-    font-size: 50px;
+    color: #eeeeee;
+    padding: 5vh
 }
 
-div li {
+header a {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    text-decoration: none;
+    color:#eeeeee;
+}
+
+h2 {
     text-align: center;
-    font-size: 20px;
-    background-color: rgb(54, 54, 54);
-    word-spacing: 5px;
+    font-size: 5vh;
+    margin-top: 2vh;
 }
 
-h1 {
-    color: #fffbfb;
-    font-size: 30px;
+.inicio {
+    margin-left: 3vh;
+    color: #141414;
+}
+
+.final {
+    text-align: center;
+    font-size: 5vh;
+    margin-bottom: 2vh;
+    margin-left: 1.75vh;
+    color: #141414;
 }
 
 li {
-    list-style-type: none;
-    background-color: rgb(104, 104, 104);
-    padding: 20px;
-    font-size: 20px;
+    list-style: none;
 }
 
-p {
-    font-size: 20px;
-    color: #fffbfb;
+.container {
+    display: flex;
+    font-size: 3vh;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 15vh;
+    margin-right: 3vh;
 }
 
-a {
-    color: #fffbfb;
+main {
+    color: #141414;
 }
 
-a:visited {
-    color: #01ff2b;
+main img {
+    height: 60vh; 
+    width: 50vh;
+    margin: auto;
+    margin-right: 4vh;
+    margin-left: 2vh;
+    border-radius: 2vh;
 }
 
-hr {
-    border-color: #01ff2b;
+main p {
+    margin-bottom: 4vh;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: 131.5vh;
+    width: 35vh;
+    background-color: #975930;
+    color: #eeeeee;
+    margin-top: 0.5vh;
+    border-radius: 2vh;
+    margin-left: 2vh;
+}
+
+aside h1 {
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    color: #eeeeee;
+}
+
+aside a {
+    display: block;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 3.5vh;
+    margin-bottom: 12vh;
+    text-align: center;
+    color: #ffd596;
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    background-color: #d08e46;
+    font-size: 3vh;
+    height: 20vh;
+    color: #eeeeee;
 }
 
-footer p {
-    font-size: 25px;
-    color: #fffbfb;
-    margin-bottom: 10px;
+hr {
+    border: #ffd596;
 }
+
