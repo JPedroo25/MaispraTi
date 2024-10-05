@@ -14,9 +14,8 @@ class Task {
 
                 return false
             }
-
-            return true
         }
+        return true
     }
 }
 
@@ -38,11 +37,11 @@ class Database {
         let tasks = []
         let id = localStorage.getItem('id')
 
-        for(let i = 0; i <= id; i++){
+        for(let i = 1; i <= id; i++){
             try {
                 let task = JSON.parse(localStorage.getItem(i))
                 tasks.push(task)
-            } catch(error){
+            } catch (error){
                 console.error(`Erro ao carregar a tarefa com id ${id}`)
             }
         }
@@ -55,7 +54,9 @@ class Database {
         localStorage.setItem('id', id.toString())
     }
     
-    removeTask(id){}
+    removeTask(id){
+        localStorage.removeItem(id)
+    }
 
     searchTasks(task){}
 
@@ -85,11 +86,11 @@ function registerTask(){
 }
 
 function loadTasks(tasks = database.loadTasks()){
-    let listTask = document.getElementById('ListTasks')
+    let listTask = document.getElementById('listTasks')
     listTask.innerHTML = ''
 
     tasks.forEach((task) => {
-        let row = listTasks.insertRow()
+        let row = listTask.insertRow()
 
         row.insertCell(0).innerHTML = `${task.day}/${task.month}/${task.year}`
 
@@ -101,9 +102,39 @@ function loadTasks(tasks = database.loadTasks()){
         btn.id = task.id
         btn.innerHTML = 'Deletar'
         btn.onClick = () => {
-            if(confirm('Você tem certeza que deseja excluir esta tarefa?')){
-                database.removeTask()
+            if(confirm('Você tem certeza que quer excluir está tarefa?')){
+                database.removeTask(task.id)
+                loadTasks()
             }
         }
+
+        row.insertCell(3).append(btn)
     })
 }
+
+function getTaskTypeName(type){
+    switch(type) {
+        case '1':
+            return 'Studies'
+            break
+        case '2':
+            return 'Work'
+            break
+        case '3':
+            return 'Home'
+            break
+        case '4': 
+            return 'health'
+        case '5':
+            return 'Family'
+            break
+        default: 
+            return 'Desconhecido'
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    if(document.body.contains(document.getElementById('listTasks'))){
+        loadTasks()
+    }
+})

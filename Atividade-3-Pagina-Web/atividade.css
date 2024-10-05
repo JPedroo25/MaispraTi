@@ -22,6 +22,9 @@ header a {
     color:#eeeeee;
 }
 
+header :hover {
+    color: #d2ff07;
+}
 h2 {
     text-align: center;
     font-size: 5vh;
@@ -104,6 +107,10 @@ aside a {
     color: #ffd596;
 }
 
+aside :hover {
+    color: #d2ff07;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -118,4 +125,3 @@ footer {
 hr {
     border: #ffd596;
 }
-
