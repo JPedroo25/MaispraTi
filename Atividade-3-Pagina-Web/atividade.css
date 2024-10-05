@@ -125,3 +125,7 @@ footer {
 hr {
     border: #ffd596;
 }
+
+a:visited {
+    color: goldenrod;
+}
