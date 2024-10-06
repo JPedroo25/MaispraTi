@@ -5,6 +5,7 @@
 
 body {
     background-color: #ecdd59;
+    font-family: "Inter";
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     font-size: 4vh;
     text-align: center;
     color: #eeeeee;
-    padding: 5vh
+    padding: 5vh;
 }
 
 header a {
@@ -22,9 +23,10 @@ header a {
     color:#eeeeee;
 }
 
-header :hover {
+header a:hover {
     color: #d2ff07;
 }
+
 h2 {
     text-align: center;
     font-size: 5vh;
@@ -51,27 +53,25 @@ li {
 .container {
     display: flex;
     font-size: 3vh;
-    height: 90vh;
+    height: 70%;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    margin-left: 15vh;
+    margin-left: 10vh;
     margin-right: 3vh;
-}
-
-main {
+    background-color: #ecdd59;
     color: #141414;
 }
 
-main img {
+section img {
     height: 60vh; 
     width: 50vh;
     margin: auto;
-    margin-right: 4vh;
+    margin-right: 2vh;
     margin-left: 2vh;
     border-radius: 2vh;
 }
 
-main p {
+section p {
     margin-bottom: 4vh;
 }
 
@@ -80,8 +80,8 @@ aside {
     display: flex;
     flex-direction: column;
     float: right;
-    height: 131.5vh;
-    width: 35vh;
+    height: 138.5vh;
+    width: 30%;
     background-color: #975930;
     color: #eeeeee;
     margin-top: 0.5vh;
@@ -107,7 +107,7 @@ aside a {
     color: #ffd596;
 }
 
-aside :hover {
+aside a:hover {
     color: #d2ff07;
 }
 
