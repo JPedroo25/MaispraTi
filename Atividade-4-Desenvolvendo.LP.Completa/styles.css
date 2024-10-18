@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    padding: 3vh;
+    background-color: rgb(49, 93, 212);
+    font-size: 4vh;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+header img {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 5vh;
+}
+
+header a {
+    margin-left: 10vh;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(75, 109, 223);
+    color: rgba(255, 255, 0, 0.822);
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.container h1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 10vh;
+    margin-right: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.introducao {
+    font-size: 2.5rem;
+}
+
+.data-e-local {
+    font-size: 3rem;
+}
+
+.descricao {
+    font-size: 2rem;
+    margin-bottom: 4.5vh;
+}
+
+.CTA {
+    text-decoration: none;
+    padding: 3vh;
+    border-radius: 2vh;
+    color: white;
+    background-color: green;
+    transition: 1s;
+}
+
+.CTA:hover {
+    background-color: rgb(1, 194, 1);
+    padding: 4vh;
+    transition: 0.5s;
+}
+
+.sobre {
+    padding: 5vh;
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.sobre h1 {
+    font-size: 3rem;
+    margin-bottom: 3vh;
+}
+
+.sobre p {
+    font-size: 2rem;
+    line-height: 3.5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.servicos-titulo {
+    text-align: center;
+    background-color: gray;
+    padding: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-size: 3rem;
+}
+
+.servicos {
+    display: flex;
+    margin-bottom: 10vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.servicos div {
+    padding: 5vh;
+    width: 20%;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos img {
+    height: 30vh;
+    width: 25vh;
+    border-radius: 3vh;
+    margin-bottom: 2vh;
+}
+
+.servicos p {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.depoimento {
+    display: flex;
+    padding: 3vh;
+    background-color: gray;
+    align-items: center;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5vh);
+    transform: translateX(-100%);
+    transition: 1s;
+}
+
+.depoimentos :nth-child(1){
+    transition-delay: 300ms;
+}
+
+.depoimentos :nth-child(2){
+    transition-delay: 500ms;
+}
+
+.depoimentos :nth-child(3){
+    transition-delay: 700ms;
+}
+
+.depoimentos :nth-child(4){
+    transition-delay: 900ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.depoimento-titulo{
+    text-align: center;
+    background-color: gray;
+    padding: 3vh;
+    font-size: 3rem;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.depoimentos {
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.depoimentos img {
+    margin-right: 5vh;
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.depoimentos h3 {
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+.depoimentos p {
+    font-size: 1.5rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 8vh;
+    width: 55vh;
+    border-radius: 5vh;
+    background-color: gray;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+form button {
+    padding: 3vh;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    border: white;
+}
+
+form button:hover {
+    background-color: rgb(28, 255, 7);
+}
+
+.formulario-titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3vh;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+input {
+    padding: 3vh;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: white;
+}
+
+input:hover {
+    background-color: lightgray;
+}
+
+input:focus {
+    border: none;
+}
+
+.span-required {
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    display: none;
+}
+
+.contato {
+    display: flex;
+    padding: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-bottom: 5vh;
+}
+
+.contato-titulo {
+    text-align: center;
+    background-color: gray;
+    padding: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-size: 3rem;
+}
+
+.contato img {
+    height: 5vh;
+    width: 5vh;
+    margin-right: 2vh;
+    border-radius: 5vh;
+}
+
+.contato p {
+    font-size: 1.5rem;
+}
+
+.contato .meus-contatos:not(:last-child) {
+    margin-right: 10vh;
+}
+
+footer {
+    display: flex;
+    padding: 3vh;
+    background-color: rgb(49, 93, 212);
+    font-size: 4vh;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.rodape a:not(:last-child) {
+    margin-right: 5vh;
+}
+
+.rodape a {
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: white;
+}

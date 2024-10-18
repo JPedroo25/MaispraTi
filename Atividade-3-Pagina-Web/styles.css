@@ -80,7 +80,7 @@ aside {
     display: flex;
     flex-direction: column;
     float: right;
-    height: 156.9vh;
+    height: 143vh;
     width: 30%;
     background-color: #975930;
     color: #eeeeee;
@@ -102,7 +102,7 @@ aside a {
     margin-left: 2vh;
     margin-right: 2vh;
     font-size: 3.5vh;
-    margin-bottom: 20vh;
+    margin-bottom: 18vh;
     text-align: center;
     color: #ffd596;
 }
