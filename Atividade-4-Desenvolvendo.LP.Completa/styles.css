@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    /* background-color: rgb(76, 165, 238); */
+}
+
 
 header {
     display: flex;
@@ -11,6 +15,7 @@ header {
     font-size: 4vh;
     align-items: center;
     margin-bottom: 5vh;
+    box-shadow: 0 0 3vh 0;
 }
 
 header img {
@@ -22,6 +27,7 @@ header img {
 header a {
     margin-left: 10vh;
     text-decoration: none;
+    color: midnightblue;
 }
 
 header a:hover {
@@ -64,6 +70,7 @@ header a:hover {
     padding: 3vh;
     border-radius: 2vh;
     color: white;
+    font-weight: bold;
     background-color: green;
     transition: 1s;
 }
@@ -77,31 +84,24 @@ header a:hover {
 .sobre {
     padding: 5vh;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(75, 109, 223);
     margin-bottom: 5vh;
     margin-left: 3vh;
     margin-right: 3vh;
 }
 
-.sobre h1 {
+.sobre-titulo {
     font-size: 3rem;
     margin-bottom: 3vh;
+    color: rgba(255, 255, 0, 0.822);
+    font-weight: bold;
 }
 
 .sobre p {
     font-size: 2rem;
-    line-height: 3.5vh;
+    line-height: 5vh;
     margin-left: 2vh;
     margin-right: 2vh;
-}
-
-.servicos-titulo {
-    text-align: center;
-    background-color: gray;
-    padding: 3vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
-    font-size: 3rem;
 }
 
 .servicos {
@@ -111,13 +111,24 @@ header a:hover {
     margin-right: 3vh;
 }
 
+.servicos-titulo {
+    text-align: center;
+    padding: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-size: 3rem;
+    color: rgba(255, 255, 0, 0.822);
+    background-color: rgb(75, 109, 223);
+    font-weight: bold;
+}
+
 .servicos div {
     padding: 5vh;
     width: 20%;
-    background-color: gray;
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: rgb(75, 109, 223);
 }
 
 .servicos img {
@@ -137,6 +148,40 @@ header a:hover {
     padding: 3vh;
     background-color: gray;
     align-items: center;
+    margin-bottom: 2vh;
+}
+
+.depoimento-titulo{
+    text-align: center;
+    padding: 3vh;
+    font-size: 3rem;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    background-color: rgb(75, 109, 223);
+    color: rgba(255, 255, 0, 0.822);
+    font-weight: bold;
+}
+
+.todos-os-depoimentos {
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.todos-os-depoimentos img {
+    margin-right: 5vh;
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.usuario {
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+.comentario {
+    font-size: 1.5rem;
 }
 
 .hidden {
@@ -146,19 +191,19 @@ header a:hover {
     transition: 1s;
 }
 
-.depoimentos :nth-child(1){
+.todos-os-depoimentos :nth-child(1){
     transition-delay: 300ms;
 }
 
-.depoimentos :nth-child(2){
+.todos-os-depoimentos :nth-child(2){
     transition-delay: 500ms;
 }
 
-.depoimentos :nth-child(3){
+.todos-os-depoimentos :nth-child(3){
     transition-delay: 700ms;
 }
 
-.depoimentos :nth-child(4){
+.todos-os-depoimentos :nth-child(4){
     transition-delay: 900ms;
 }
 
@@ -169,45 +214,13 @@ header a:hover {
     transition: all 1s;
 }
 
-.depoimento-titulo{
-    text-align: center;
-    background-color: gray;
-    padding: 3vh;
-    font-size: 3rem;
-    margin-left: 3vh;
-    margin-right: 3vh;
-}
-
-.depoimentos {
-    margin-bottom: 5vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
-}
-
-.depoimentos img {
-    margin-right: 5vh;
-    border-radius: 50%;
-    height: 10vh;
-    width: 10vh;
-}
-
-.depoimentos h3 {
-    font-size: 2rem;
-    margin-bottom: 1vh;
-}
-
-.depoimentos p {
-    font-size: 1.5rem;
-}
-
-
 form {
     display: flex;
     flex-direction: column;
     padding: 8vh;
     width: 55vh;
     border-radius: 5vh;
-    background-color: gray;
+    background-color: rgb(75, 109, 223);
 }
 
 .formulario {
@@ -216,20 +229,11 @@ form {
     margin-bottom: 5vh;
 }
 
-form button {
-    padding: 3vh;
-    border-radius: 2vh;
-    margin-top: 5vh;
-    border: white;
-}
-
-form button:hover {
-    background-color: rgb(28, 255, 7);
-}
-
 .formulario-titulo {
     text-align: center;
     font-size: 3rem;
+    color: rgba(255, 255, 0, 0.822);
+    font-weight: bold;
 }
 
 label {
@@ -266,6 +270,22 @@ input:focus {
     display: none;
 }
 
+form button {
+    padding: 3vh;
+    border-radius: 2vh;
+    margin-top: 5vh;
+    font-size: 1rem;
+    font-weight: bold;
+    border: white;
+    color: white;
+    background-color: rgb(1, 194, 1);
+}
+
+form button:hover {
+    background-color: rgb(0, 255, 13);
+    
+}
+
 .contato {
     display: flex;
     padding: 5vh;
@@ -279,11 +299,13 @@ input:focus {
 
 .contato-titulo {
     text-align: center;
-    background-color: gray;
     padding: 3vh;
     margin-left: 3vh;
     margin-right: 3vh;
     font-size: 3rem;
+    color: rgba(255, 255, 0, 0.822);
+    background-color: rgb(75, 109, 223);
+    font-weight: bold;
 }
 
 .contato img {
@@ -308,16 +330,18 @@ footer {
     font-size: 4vh;
     justify-content: center;
     padding: 5vh;
-}
-
-.rodape a:not(:last-child) {
-    margin-right: 5vh;
+    box-shadow: 0 0 3vh 0;
 }
 
 .rodape a {
     text-decoration: none;
+    color: midnightblue;
 }
 
 .rodape a:hover {
     color: white;
+}
+
+.rodape a:not(:last-child) {
+    margin-right: 5vh;
 }

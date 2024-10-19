@@ -3,8 +3,7 @@ const campos = document.querySelectorAll('.inputs-required')
 const spans = document.querySelectorAll('.span-required')
 const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault()
+form.addEventListener('submit', () => {
     nameValidate()
     emailValidate()
     duvidaValidate()

@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 4</title>
+    <title>Atividade 4 - Landing Page</title>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="reponsividade.css">
     <script src="Swiper.js" defer></script>
     <script src="reveal.js" defer></script>
     <script src="form.js" defer></script>
-
-
 
 </head>
 <body>
@@ -35,7 +34,7 @@
             <p class="data-e-local">
             20/11/24 - 11h
             <br>
-            Lídio Batista Soares, 700 Cachoeirnha RS
+            Lídio Batista Soares, 700 Cachoeirinha RS
             </p>
             <br>
             <p class="descricao">
@@ -94,7 +93,7 @@
 
     <section class="sobre" id="sobre">
         
-        <h1>Sobre</h1>
+        <h1 class="sobre-titulo">Sobre</h1>
 
         <p>
             Sou representante da turma MM35 da escola Mascarenhas de Moraes, estamos organizando um almoço para celebrar o encerramento de um ciclo em nossas vidas.
@@ -138,7 +137,7 @@
     <h1 class="depoimento-titulo" id="depoimentos">Depoimentos</h1>
     </section>
 
-    <section class="depoimentos">
+    <section class="todos-os-depoimentos">
         
         <section class="hidden">
         <div class="depoimento">
@@ -146,8 +145,8 @@
                 <img src="https://ideogram.ai/assets/progressive-image/balanced/response/3LfuYJzZRl-D2q5LALbo7g" alt="foto de perfil">
             </div>
             <div>
-                <h3>Murilo Ramos</h3>
-                <p>Adoro este dia! Como nos outros anos, espero por comida boa e diversão garantida.</p>
+                <h3 class="usuario">Murilo Ramos</h3>
+                <p class="comentario">Adoro este dia! Como nos outros anos, espero por comida boa e diversão garantida.</p>
             </div> 
         </div>
     </section>
@@ -158,8 +157,8 @@
                 <img src="https://ideogram.ai/assets/progressive-image/balanced/response/d5yZPNZaQoWthxdoTkdwrg" alt="foto de perfil">
             </div>
             <div>
-                <h3>Ana Barroso</h3>
-                <p>Vale as memórias, amo a companhia, pena que será o último :(.</p>
+                <h3 class="usuario">Ana Barroso</h3>
+                <p class="comentario">Vale as memórias, amo a companhia, pena que será o último :(.</p>
             </div>
         </div>
     </section>
@@ -170,8 +169,8 @@
                 <img src="https://ideogram.ai/assets/progressive-image/balanced/response/DjgLM4laQZ2RFCpnmzVQMA" alt="foto de perfil">
             </div>
             <div>
-            <h3>Thiago Leite</h3>
-            <p>Que zoeira!!!</p>
+            <h3 class="usuario">Thiago Leite</h3>
+            <p class="comentario">Que zoeira!!!</p>
             </div>
         </div>
     </section>
@@ -182,8 +181,8 @@
                 <img src="https://ideogram.ai/assets/progressive-image/balanced/response/PW7HYST8Tyaoq-s0LrYdQw" alt="foto de perfil">
             </div>
             <div>
-                <h3>João Leopoldo</h3>
-                <p>Turma top, adoro esses caras kkkkk.</p>
+                <h3 class="usuario">João Leopoldo</h3>
+                <p class="comentario">Turma top, adoro esses caras kkkkk.</p>
             </div>
         </div>
         </section>
@@ -203,11 +202,11 @@
             <input type="email" id="email" name="email" placeholder="seuEmail@gmail.com" class="inputs-required" oninput="emailValidate()">
             <span class="span-required">Digite um email válido!</span>
 
-            <label for="duvida">Sua dúvida</label>
+            <label for="duvida">Sua dúvida:</label>
             <input type="duvida" id="duvida" name="duvida" placeholder="Duvida" class="inputs-required" oninput="duvidaValidate()">
             <span class="span-required">Digite sua duvida!</span>
 
-            <button type="enviar" class="submit">Enviar</button>
+            <button type="enviar" class="submit">ENVIAR</button>
         </form>
     </section>
 
