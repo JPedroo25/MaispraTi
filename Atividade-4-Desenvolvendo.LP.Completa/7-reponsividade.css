@@ -108,13 +108,13 @@
     }
 
     .manual-navigation {
-        margin-left: 15vh;
-        margin-top: 10vh;
+        margin-left: 0vh;
+        margin-top: -5vh;
     }
 
     .navigation-auto {
-        margin-left: 15vh;
-        margin-top: 68vh;
+        margin-left: 0vh;
+        margin-top: 53vh;
     }
 
     .contato {
@@ -180,13 +180,13 @@
         height: 53vh;
     }
     .manual-navigation {
-        margin-left: 15vh;
-        margin-top: 10vh;
+        margin-left: -20vh;
+        margin-top: -27vh;
     }
 
     .navigation-auto {
-        margin-left: 15vh;
-        margin-top: 68vh;
+        margin-left: -20vh;
+        margin-top: 31vh;
     }
 }
 
@@ -201,12 +201,12 @@
         height: 48vh;
     }
     .manual-navigation {
-        margin-left: 15vh;
-        margin-top: 10vh;
+        margin-left: -26vh;
+        margin-top: -25vh;
     }
 
     .navigation-auto {
-        margin-left: 15vh;
-        margin-top: 68vh;
+        margin-left: -26vh;
+        margin-top: 33vh;
     }
 }
