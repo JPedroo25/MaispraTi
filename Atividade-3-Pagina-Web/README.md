@@ -1,0 +1,3 @@
+# Atividade 3 - Site
+## Pré-Requisitos para o funcionamento: Visual Studio Code, HTML e CSS.
+Esta atividade foi realizada com o intuito de atender aos requisitos do módulo 3, do curso gratuito disponibilizado pela +PraTi. Este é o site que desenvolvi sobre meu prato favorito, escolhi compartilhar esta receita. Lá você pode encontrar variações e sugestões de recheios, molhos e acompanhamentos. Também deixo curiosidades sobre as panquecas nos links do site.

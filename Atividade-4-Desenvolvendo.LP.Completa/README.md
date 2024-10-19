@@ -1,0 +1,3 @@
+# Atividade 4 - Landing Page
+## Pré-Requisitos para o funcionamento: Visual Studio Code, HTML, CSS e JavaScript.
+Esta atividade foi realizada com o intuito de atender aos requisitos do módulo 3, do curso gratuito disponibilizado pela +PraTi. Este site é uma Landing Page que oferece um almoço de encerramento do ano letivo. Lá encontra-se data, horário e local, imagens que ilustram o ambiente e as atividades propostas. Possui também um formulário para esclarecimento de possíveis dúvidas, e também feedback de pessoas que já vivenciaram esta experiência em outros anos.
