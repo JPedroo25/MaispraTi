@@ -1,0 +1,1 @@
+Você está desenvolvendo uma aplicação de e-commerce que precisa exibir uma lista de produtos disponíveis em estoque. O objetivo deste exercício é implementar a renderização condicional para exibir apenas os produtos que estão disponíveis (ou seja, aqueles que possuem a propriedade inStock como true).

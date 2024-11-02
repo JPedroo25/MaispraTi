@@ -1,0 +1,21 @@
+# Exercício: Contador com Mensagens de Ciclo de Vida
+
+# Objetivo
+
+# Crie um componente de classe React chamado Contador que:
+
+#     Permita ao usuário incrementar, decrementar e resetar o valor do contador.
+#     Exiba mensagens específicas no console em cada fase do ciclo de vida: quando o componente é montado, atualizado e desmontado.
+#     Adicione uma verificação para não permitir que o contador vá abaixo de zero.
+# Requisitos
+
+#     Estado Inicial: Defina um estado inicial com uma propriedade count igual a 0.
+#     Botões:
+#         Incrementar: aumenta count em 1.
+#         Decrementar: diminui count em 1 (mas impede que o valor seja negativo).
+#         Resetar: redefine count para 0.
+# Mensagens no Console: Exiba mensagens nas seguintes fases do ciclo de vida do componente:
+#         Montagem: exiba "Componente montado" no componentDidMount.
+#         Atualização: exiba "Contador atualizado" no componentDidUpdate.
+#         Desmontagem: exiba "Componente será desmontado" no componentWillUnmount.
+#     Validação: Bloqueie o decremento do valor caso ele seja igual a 0.

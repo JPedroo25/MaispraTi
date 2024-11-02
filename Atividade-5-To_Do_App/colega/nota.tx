@@ -1,0 +1,20 @@
+const handleTaskClick = (taskContent) => {
+    const tasks = tasksContainer.childNodes;
+
+    for (const task of tasks) {
+
+      if (currentTaskIsBeingClicked) {
+        task.firstChild.classList.toggle("completed");
+      }
+    }
+  };
+
+  const handleDeleteClick = (taskItemContainer, taskContent) => {
+    const tasks = tasksContainer.childNodes;
+
+    for (const task of tasks) {
+      if (task.firstChild.isSameNode(taskContent))
+        taskItemContainer.remove();
+
+      }
+    };

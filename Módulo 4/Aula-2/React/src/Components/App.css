@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(71, 71, 71);
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+header h1 {
+  margin-left: 15px;
+  color: rgb(255, 185, 55);
+}
+
+header h3 {
+  margin-left: 15px;
+  margin-top: -10px;
+  color: rgb(255, 223, 163);
+}
+
+.panel {
+  background-color: rgb(184, 184, 184);
+  display: none;
+}
+
+.panel.visible {
+  display: flex;
+}
+
+button {
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(252, 243, 227);
+}

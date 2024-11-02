@@ -1,0 +1,12 @@
+Marcar Tarefa como Concluída:
+
+    Ao lado de cada tarefa, inclua um botão "Concluído". Quando clicado, o texto da tarefa deve ser riscado, indicando que a tarefa foi concluída.
+    Utilize um estilo de texto riscado (por exemplo, text-decoration: line-through;) para representar a conclusão.
+
+Limpar Tarefas Concluídas:
+
+    Adicione um botão "Limpar Tarefas Concluídas" abaixo da lista de tarefas. Esse botão deve remover todas as tarefas que foram marcadas como concluídas.
+
+
+
+    Agora estilize e faça um botão de editar
