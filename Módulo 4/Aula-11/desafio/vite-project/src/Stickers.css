@@ -1,0 +1,40 @@
+.stickers {
+    top: 1120px; /* Define a distância do topo da página */
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 86%; /* Limita a largura máxima a 86% do espaço disponível */
+    position: absolute; /* Posicionamento livre, independente do fluxo padrão */
+    left: 50%; /* Centraliza horizontalmente em relação ao viewport */
+    right: 50%; /* Complementa a centralização */
+    transform: translate(-50%, -50%); /* Alinha ao centro exato horizontalmente */
+}
+
+.header {
+    width: 100%; /* Ocupa toda a largura disponível */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #1B1E18; /* Define a cor do texto (verde escuro) */
+    font-size: 36px; /* Tamanho grande para o título */
+    font-weight: 700; /* Texto em negrito */
+}
+
+.sticker-grid {
+    display: grid; /* Configura os elementos internos em uma grade */
+    justify-items: center; /* Centraliza os stickers horizontalmente */
+    align-items: baseline; /* Alinha os stickers verticalmente pela linha de base do texto */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Cria 4 colunas de tamanho igual */
+}
+
+.stickers-text {
+    max-width: 245px; /* Limita a largura máxima do texto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #1B1E18; /* Define a cor do texto (verde escuro) */
+    font-size: 16px; /* Tamanho do texto médio */
+    font-family: Karma; /* Aplica uma fonte personalizada */
+    font-weight: 400; /* Peso normal da fonte */
+    line-height: 24px; /* Altura das linhas para facilitar a leitura */
+    word-wrap: break-word; /* Permite quebra de palavras longas */
+}
+
+.sticker {
+    width: 256px; /* Largura fixa para as imagens dos stickers */
+    margin-bottom: -40px; /* Define um espaçamento negativo na parte inferior */
+}

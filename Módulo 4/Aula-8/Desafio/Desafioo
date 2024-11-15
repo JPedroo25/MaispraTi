@@ -1,0 +1,10 @@
+Crie uma aplicação React chamada MySite que possui quatro páginas:
+
+    Home – Página inicial que contém links para as outras páginas.
+    About – Página com informações sobre o site.
+    Services – Página com a lista de serviços oferecidos.
+    Contact – Página com informações de contato.
+
+Objetivo do Exercício
+
+O usuário deve poder navegar entre as páginas usando links e botões programáticos. Utilize o Link e o useNavigate do React Router.

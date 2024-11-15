@@ -1,0 +1,103 @@
+@media (max-width: 1024px) {
+    .swiper .swiper-wrapper .swiper-slide .banner img {
+      display: block;
+      position: absolute;
+      max-width: 70%;
+      height: auto;
+      transform: translateX(-50%);
+      z-index: 1;
+      left: 70%;
+    }
+  
+    .swiper .swiper-wrapper .swiper-slide .banner .right {
+      position: absolute;
+      right: 0;
+      height: 100vh;
+      max-width: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  
+    .banner .right .description {
+      display: none;
+    }
+  
+    .banner .right .trailer {
+      position: relative;
+      top: 60%;
+      max-width: 100%;
+    }
+    .banner .right .trailer h2{
+      text-align: center;
+    }
+    .banner .right .trailer iframe {
+      max-width: 350px;
+      max-height: 200px;
+      margin-bottom: 100px;
+    }
+    .banner .right .trailer h2 {
+      display: none;
+    }
+  
+    .banner .left {
+      position: absolute;
+      margin-left: -300px;
+      top: 25vh;
+      height: 50vh;
+      font-size: 2rem;
+    }
+    .banner .left h1 {
+      font-size: 7vw;
+      text-align: center;
+    }
+  
+    .banner .left p {
+      font-size: 0.8rem;
+    }
+    .banner .left .features {
+      margin-bottom: 20px;
+    }
+  
+    .banner .left .features .rating .content h4 {
+      font-size: 0.8rem;
+    }
+
+    #login {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .swiper .swiper-button-next,
+    .swiper .swiper-button-prev {
+      width: 40px;
+      height: 40px;
+    }
+    .swiper .swiper-button-next::after,
+    .swiper .swiper-button-prev::after {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 710px) {
+    .banner .left {
+        margin-left: -100px;
+        font-size: 1.5rem;
+    }
+
+    .swiper .swiper-wrapper .swiper-slide .banner img {
+        max-width: 50%;
+        left: 80%;
+    }
+
+    #gameInput {
+        width: 90px;
+    }
+
+    .logo img {
+        margin-left: -70px;
+    }
+  }

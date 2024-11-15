@@ -28,7 +28,7 @@ class Contador extends React.Component {
 
     decrementar = () => {
         this.setState(prevState => {
-            if (prevState.count = 0) {
+            if (prevState.count > 0) {
                 return {count: prevState.count -1}
             }
             return null
