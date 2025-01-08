@@ -41,7 +41,7 @@ class Contador extends React.Component {
 
     render() {
         return (
-            <div>
+            <div class="container">
                 <h1>Contador: {this.state.count}</h1>
                 <button onClick={this.incrementar}>Incrementar</button>
                 <button onClick={this.decrementar}>Decrementar</button>

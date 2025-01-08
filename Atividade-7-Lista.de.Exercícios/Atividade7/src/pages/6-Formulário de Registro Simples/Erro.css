@@ -1,0 +1,32 @@
+.inputs-required.error {
+    border: 0.5vh solid #ff0000;
+  }
+  
+  .span-required {
+    display: none;
+    color: #ff0000;
+    font-size: 0.9rem;
+  }
+  
+  .inputs-required.error + .span-required {
+    display: block;
+  }
+  
+  .mensagem {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .mensagem.sucesso {
+    color: #00ff00;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .mensagem.erro {
+    color: #ff0000;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  

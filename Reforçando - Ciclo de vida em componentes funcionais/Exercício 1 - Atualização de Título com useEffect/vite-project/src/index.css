@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(192, 192, 192);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.Exercicio1 {
+    padding: 20px;
+    background-color: rgb(90, 90, 90);
+}
+
+.Exercicio2 {
+    padding: 20px;
+    background-color: rgb(120, 120, 120);
+}
+
+.Exercicio3 {
+    padding: 20px;
+    background-color: rgb(90, 90, 90);
+}
+
+.Exercicio4 {
+    padding: 20px;
+    background-color: rgb(120, 120, 120);
+}
+
+.Exercicio5 {
+    padding: 20px;
+    background-color: rgb(90, 90, 90);
+}
+
+.Exercicio6 {
+    padding: 20px;
+    background-color: rgb(120, 120, 120);
+}

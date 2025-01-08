@@ -1,0 +1,84 @@
+body {
+    background-color: #696868;
+}
+
+h1 {
+    font-size: 3rem;
+    color:#fffb00
+}
+
+h2 {
+    color: #e8fc33;
+}
+
+.container {
+    padding: 20px;
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0  rgb(32, 32, 32);
+}
+
+.container button {
+    padding: 15px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 5px;
+    background-color: #414141;
+    color: #7bff00;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.btn-10 {
+    margin-right: 8.5px;
+}
+
+.container button:hover {
+    background-color: #7bff00;
+    color: #414141;
+    cursor: pointer;
+}
+
+.container button:not(:last-child) {
+    margin-right: 10px;
+}
+
+#btnAtivo {
+    background-color: #7bff00;
+    color: #414141;
+}
+
+li {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.BotãoConcluído {
+    margin-left: 80px;
+}
+
+.ListaDaAtividade5 {
+    text-align: center;
+    list-style: none;
+    margin-left: -50px;
+}
+
+.BotãoDeVolta {
+    padding: 10px;
+    font-size: 1.10rem;
+    border-radius: 5px;
+    border: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.BotãoDeVolta:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
