@@ -1,16 +1,13 @@
-// TitleUpdater.jsx
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const TitleUpdater = () => {
-  // Criação do estado para armazenar o número
+  
   const [number, setNumber] = useState(0);
 
-  // Usando useEffect para atualizar o título da aba do navegador sempre que o número mudar
   useEffect(() => {
-    document.title = `Número Atual: ${number}`; // Atualiza o título da aba
-  }, [number]); // Executa sempre que o número mudar
+    document.title = `Número Atual: ${number}`;
+  }, [number]);
 
-  // Funções para incrementar e decrementar o número
   const increment = () => setNumber(number + 1);
   const decrement = () => setNumber(number - 1);
 

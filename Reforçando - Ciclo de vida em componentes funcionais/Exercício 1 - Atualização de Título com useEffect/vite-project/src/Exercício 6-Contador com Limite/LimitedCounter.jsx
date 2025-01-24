@@ -1,18 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const LimitedCounter = () => {
-  // Inicializa o contador com valor 0
+
   const [counter, setCounter] = useState(0);
   const limit = 10;
 
-  // Função para incrementar o contador
   const increment = () => {
     if (counter < limit) {
       setCounter(prevCounter => prevCounter + 1);
     }
   };
 
-  // Função para decrementar o contador
   const decrement = () => {
     if (counter > 0) {
       setCounter(prevCounter => prevCounter - 1);
